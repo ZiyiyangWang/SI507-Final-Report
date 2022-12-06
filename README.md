@@ -1,4 +1,4 @@
-# SI507-Final-Report-Ann Arbor House Renting
+# Arbor House Renting
 ## Overview
 Craigslist is an American classified ads website, with sections for employment, housing, for sale, goods sought, services, volunteer opportunities, gigs, résumés, and discussion forums.
 
