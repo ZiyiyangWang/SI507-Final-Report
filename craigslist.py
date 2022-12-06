@@ -152,24 +152,24 @@ def saveData(datalist, pagecount, num, savepath):
 
     # print('saving...')
     book = xlwt.Workbook(
-        encoding='utf-8', style_compression=0)     # 新建workbook
+        encoding='utf-8', style_compression=0)     
     sheet = book.add_sheet('Apartments_Housing_for_Renting',
-                           cell_overwrite_ok=True)    # 添加sheet
-    # 列名
+                           cell_overwrite_ok=True)   
+
     col = ('Num', 'Title', 'Location', 'Price',
            'Information', 'Image_Link', 'Link')
-    # 写入列名
+
     for i in range(0, len(col)):
         sheet.write(0, i, col[i])
-    # 将每条帖子的相关内容写入Excel对应行中
+
     for i in range(0, pagecount*num):
         # print('第%d条' % (i+1))
         data = datalist[i]
-        sheet.write(i+1, 0, i+1)            # 写入序号
+        sheet.write(i+1, 0, i+1)            
         for j in range(0, len(data)):
 
-            sheet.write(i+1, j+1, data[j])  # 写入数据
-    book.save(savepath)                     # 保存文件
+            sheet.write(i+1, j+1, data[j])  
+    book.save(savepath)                     
     # print('Successful!')
 
 
