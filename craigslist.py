@@ -21,7 +21,7 @@ def main():
     redlingdata = []
 
     try:
-        with open(r'annarbor_renting_cache.txt', 'r') as fp:
+        with open(r'annarbor_renting_cach.txt', 'r') as fp:
             for line in fp:
                 print(len(line))
                 x = line[:-1]
