@@ -8,6 +8,9 @@ The website not only provides basic service information, such as hiring labor ne
 
 Use Python crawler, Flask framework, Echarts, WordCloud and other technologies to collect the [Ann Arbor house](https://annarbor.craigslist.org/search/apa) rental information, save it in Excel and database and make a tree data structure, perform data visualization operations, and make web page display.
 
+## Data structure
+Set *Ann Arbor* as root, make each *post* as nodes and *location*, *information*, *picture*, *price* as different child nodes. 
+
 ## Running method
 Open ***craigslist.py***, run the file to get house renting data from craigslist and store the data into ***annarbor_renting.xls*** and ***annarbor_renting_cache.txt***. 
 
