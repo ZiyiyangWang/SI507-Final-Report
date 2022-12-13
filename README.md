@@ -10,8 +10,11 @@ Use Python crawler, Flask framework, Echarts, WordCloud and other technologies t
 
 ## Data structure
 Set *Ann Arbor* as root, make each *post* as nodes and *location*, *information*, *picture*, *price* as different child nodes. 
+![tree](/img/tree.png)
 
 ## Running method
+**(Require Flask Package)**
+
 Open ***craigslist.py***, run the file to get house renting data from craigslist and store the data into ***annarbor_renting.xls*** and ***annarbor_renting_cache.txt***. 
 
 Run **AnnArbor_flask/app.py** and type **http://127.0.0.1:5000/index** in the chrome to reach to the display page.
