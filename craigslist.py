@@ -16,7 +16,7 @@ def main():
     print('Start Retrieving······')
 
     baseurl = 'https://annarbor.craigslist.org/search/apa?s='
-    pagecount = 1
+    pagecount = 2
     num = 120
     redlingdata = []
 
